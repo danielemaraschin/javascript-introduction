@@ -4,3 +4,5 @@ titulo.textContent= "Aparecida Nutricionista";
 
 var paciente = document.querySelector("#primeiro-paciente");
 document.querySelector(".info-peso");
+
+//testing git
