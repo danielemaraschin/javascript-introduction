@@ -12,4 +12,4 @@ var altura = tdAltura.textContent;
 
 console.log(paciente);
 console.log(tdAltura);
-console.log(altura);
+console.log(altura); 
