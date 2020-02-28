@@ -1,0 +1,20 @@
+<html>
+    <ul class="afazeres">
+        <li>Ir ao médico</li>
+        <li>Trocar a senha do Wifi</li>
+        <li>Estudar Javascript</li>
+    </ul>
+
+    <form class="adicionar-tarefa">
+        <input type="text" name="tarefa">
+        <button id="botao-adicionar">Salvar</button>
+    </form>
+    </html>
+    <script>
+        var form = document.querySelector('.adicionar-tarefa');
+        var botao = document.querySelector('#botao-adicionar');
+        botao.addEventListener("click", function(event){
+            event.preventDefault();
+    console.log(form.tarefa.value);
+});
+    </script>
