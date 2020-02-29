@@ -38,15 +38,19 @@ for (var i = 0; i < pacientes.length; i++){
 }
 
 var botaoAdicionar = document.querySelector('#adicionar-paciente');
+
 botaoAdicionar.addEventListener(click,function(event)){
     event.preventDefault();
 }
-    var form = document.querySelector ("#form-adiciona");
+        var form = document.querySelector ("#form-adiciona");
         var nome = form.nome.value;
         var peso = form.peso.value;
         var altura = form.altura.value;
         var gordura= form.gordura.value;
         var imcTd= document.createElement("td"); 
+        
+        var pacienteTr = document.createElement("tr");
+
 
     nomeTd.textContent = nome;
     pesoTd.textContent = peso;
